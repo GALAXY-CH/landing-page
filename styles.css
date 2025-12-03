@@ -229,21 +229,37 @@ a:hover {
 .nav-brand {
     display: flex;
     align-items: center;
-    gap: var(--spacing-sm);
+    gap: 12px;
 }
 
 .nav-logo {
-    height: 40px;
+    height: 32px;
     width: auto;
 }
 
+.nav-text {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
 .nav-title {
-    font-size: var(--font-size-xl);
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+}
+
+.swiss-cross {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 0, 0, 0.8);
+    color: white;
     font-weight: 700;
-    background: var(--gradient-primary);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    font-size: 14px;
+    border-radius: 2px;
 }
 
 .nav-links {
