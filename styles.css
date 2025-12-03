@@ -539,6 +539,12 @@ a:hover {
     margin-bottom: var(--spacing-lg);
 }
 
+#why-matters .about-content {
+    grid-template-columns: 1fr;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .about-stats {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
