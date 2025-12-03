@@ -253,13 +253,13 @@ a:hover {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     background-color: rgba(255, 0, 0, 0.8);
     color: white;
     font-weight: 700;
-    font-size: 14px;
-    border-radius: 2px;
+    font-size: 25px;
+    border-radius: 4px;
 }
 
 .nav-links {
@@ -532,6 +532,13 @@ a:hover {
     margin-bottom: var(--spacing-lg);
 }
 
+.why-matters-paragraph {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-secondary);
+    line-height: 1.8;
+    margin-bottom: var(--spacing-lg);
+}
+
 .about-stats {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -782,6 +789,45 @@ a:hover {
 
 .footer-copyright a {
     color: var(--color-accent-light-red);
+}
+
+/* ========================================
+   Why This Matters Section
+ 
+.why-matters {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e9ecef 100%);
+}
+
+.why-matters-content {
+    margin-top: 60px;
+}
+
+.why-matters-text {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.why-matters-paragraph {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.why-matters-paragraph:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .why-matters {
+        padding: 60px 0;
+    }
+
+    .why-matters-paragraph {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
 }
 
 /* ========================================
