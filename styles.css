@@ -597,6 +597,33 @@ a:hover {
     filter: drop-shadow(0 0 20px rgba(220, 20, 60, 0.3));
 }
 
+.partners-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-xl);
+    justify-content: center;
+    align-items: center;
+    margin-top: var(--spacing-xl);
+    grid-column: 1 / -1;
+    /* Span full width if inside grid */
+}
+
+.partner-logo {
+    max-height: 50px;
+    max-width: 150px;
+    width: auto;
+    transition: all var(--transition-base);
+    opacity: 0.8;
+    /* Invert for dark mode if logos are black */
+    filter: brightness(0) invert(1);
+}
+
+.partner-logo:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    filter: none;
+}
+
 /* ========================================
    Features Section
    ======================================== */
