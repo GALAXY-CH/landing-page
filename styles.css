@@ -938,7 +938,7 @@ a:hover {
 }
 
 .footer-copyright {
-    color: var(--color-text-muted);
+    color: var(--color-text-white);
     font-size: var(--font-size-sm);
 }
 
