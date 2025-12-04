@@ -741,6 +741,128 @@ a:hover {
 }
 
 /* ========================================
+   Target Audience Section
+   ======================================== */
+.target-audience {
+    padding: var(--spacing-3xl) 0;
+    background: var(--color-bg-darker);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.audience-content {
+    max-width: 900px;
+    margin: 0 auto var(--spacing-3xl);
+    background: var(--color-bg-card);
+    padding: var(--spacing-xl);
+    border-radius: var(--radius-xl);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.audience-intro {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-secondary);
+    margin-bottom: var(--spacing-lg);
+    text-align: center;
+}
+
+.highlight-text {
+    color: var(--color-text-primary);
+    font-weight: 600;
+}
+
+.audience-list {
+    list-style: none;
+    padding-left: var(--spacing-md);
+}
+
+.audience-list li {
+    position: relative;
+    padding-left: var(--spacing-lg);
+    margin-bottom: var(--spacing-md);
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-base);
+    line-height: 1.6;
+}
+
+.audience-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--color-primary);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.highlight-role {
+    color: var(--color-text-primary);
+    font-weight: 700;
+}
+
+/* Get Involved Subsection */
+.get-involved-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--gradient-card);
+    padding: var(--spacing-2xl);
+    border-radius: var(--radius-xl);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: var(--spacing-3xl);
+    flex-wrap: wrap;
+    gap: var(--spacing-xl);
+}
+
+.get-involved-content {
+    flex: 1;
+    min-width: 300px;
+}
+
+.get-involved-content .section-title {
+    text-align: left;
+    margin-bottom: var(--spacing-md);
+    font-size: var(--font-size-3xl);
+}
+
+.get-involved-list {
+    list-style: none;
+}
+
+.get-involved-list li {
+    position: relative;
+    padding-left: var(--spacing-lg);
+    margin-bottom: var(--spacing-sm);
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-lg);
+}
+
+.get-involved-list li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: var(--color-primary-light);
+}
+
+.get-involved-action {
+    flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+    .get-involved-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .get-involved-content .section-title {
+        text-align: center;
+    }
+
+    .get-involved-list {
+        text-align: left;
+        display: inline-block;
+    }
+}
+
+/* ========================================
    Footer
    ======================================== */
 .footer {
