@@ -1084,3 +1084,15 @@ a:hover {
         transform: translateX(0);
     }
 }
+
+/* ========================================
+   Icon Styling
+   ======================================== */
+.footer-list a i {
+    margin-right: 0.5rem;
+    transition: transform var(--transition-fast);
+}
+
+.footer-list a:hover i {
+    transform: scale(1.1);
+}
