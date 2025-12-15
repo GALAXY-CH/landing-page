@@ -1,5 +1,7 @@
 # Galaxy Switzerland Landing Page
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A modern, responsive landing page for Galaxy Switzerland - a powerful, web-based platform for accessible, reproducible, and transparent computational research in life sciences.
 
 ## Features
@@ -46,6 +48,8 @@ This project is hosted on GitHub Pages. You can access the live version at [gala
 
 
 ## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 Part of the Galaxy Project. See [galaxyproject.org](https://galaxyproject.org/) for more information.
 
