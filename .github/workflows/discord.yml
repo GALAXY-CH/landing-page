@@ -1,4 +1,6 @@
 name: GitHub-Discord Bridge
+permissions:
+  contents: read
 
 on:
   push:
