@@ -44,7 +44,7 @@ A modern, responsive landing page for Galaxy Switzerland - a powerful, web-based
 
 ## GitHub Pages
 
-This project is hosted on GitHub Pages. You can access the live version at [galaxyproject.github.io/landing-page](https://https://galaxy-ch.github.io/landing-page/).
+This project is hosted on GitHub Pages. You can access the live version at [galaxyproject.github.io/landing-page](https://galaxy-ch.github.io/landing-page).
 
 
 ## License
