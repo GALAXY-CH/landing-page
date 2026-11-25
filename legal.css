@@ -44,7 +44,7 @@ header.legal-header .inner {
     flex-wrap: wrap;
 }
 
-header.legal-header img { height: 40px; }
+header.legal-header img { height: 36px; width: auto; max-width: 100%; display: block; }
 
 header.legal-header nav { margin-left: auto; display: flex; gap: 1rem; flex-wrap: wrap; }
 header.legal-header nav a { color: #fff; text-decoration: none; opacity: .85; font-size: .95rem; }
